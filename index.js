@@ -47,7 +47,7 @@ module.exports = {
     "new-cap": 0,
     "comma-spacing": [2, {"before": false, "after": true}],
     "comma-dangle": [2, "always-multiline"],
-    "eqeqeq": [2, "always"],
+    "eqeqeq": [2, "always", {"null": "ignore"}],
     "no-extra-semi": 2
   }
 }
